@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuggetLib.Core", "NuggetLib.Core\NuggetLib.Core.csproj", "{27EC29BC-9822-4F8B-B9B6-B5F2D359EDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuggetLib.Views", "NuggetLib.Views\NuggetLib.Views.csproj", "{AF33B2ED-A85B-446F-AF2D-5CD3493201EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27EC29BC-9822-4F8B-B9B6-B5F2D359EDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EC29BC-9822-4F8B-B9B6-B5F2D359EDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EC29BC-9822-4F8B-B9B6-B5F2D359EDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EC29BC-9822-4F8B-B9B6-B5F2D359EDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF33B2ED-A85B-446F-AF2D-5CD3493201EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF33B2ED-A85B-446F-AF2D-5CD3493201EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF33B2ED-A85B-446F-AF2D-5CD3493201EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF33B2ED-A85B-446F-AF2D-5CD3493201EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

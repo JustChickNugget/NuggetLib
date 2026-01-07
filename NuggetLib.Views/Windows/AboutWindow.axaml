@@ -1,0 +1,58 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Class="NuggetLib.Views.Windows.AboutWindow"
+        mc:Ignorable="d"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen"
+        CanResize="False"
+        Title="About Application"
+        KeyDown="Window_OnKeyDown">
+    <StackPanel
+        Orientation="Vertical"
+        Margin="25, 20"
+        Spacing="5">
+        <TextBlock
+            x:Name="ApplicationNameTextBlock"
+            FontSize="18"
+            FontWeight="Bold"
+            HorizontalAlignment="Center" />
+
+        <TextBlock x:Name="ApplicationDescriptionTextBlock" />
+
+        <Grid
+            ColumnDefinitions="*, *, Auto"
+            ColumnSpacing="15">
+            <HyperlinkButton
+                x:Name="ApplicationDeveloperHyperlinkButton"
+                Grid.Column="0"
+                Padding="5"
+                Content="Developer"
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Center" />
+
+            <HyperlinkButton
+                x:Name="ApplicationRepositoryHyperlinkButton"
+                Grid.Column="1"
+                Padding="5"
+                Content="Repository"
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Center" />
+
+            <TextBlock
+                x:Name="ApplicationVersionLabel"
+                Grid.Column="2"
+                Text="v0.0.0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center" />
+        </Grid>
+
+        <Button
+            Margin="0, 5, 0, 0"
+            Content="Close"
+            HorizontalAlignment="Stretch"
+            HorizontalContentAlignment="Center"
+            Click="CloseButton_OnClick" />
+    </StackPanel>
+</Window>
